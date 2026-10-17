@@ -1,0 +1,21 @@
+name: ios27_ai_camera
+description: iOS 27 Camera App with Real-Time AI Framing & Horizon Guidance
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9
+  sensors_plus: ^5.0.1
+  flutter_haptic: ^0.0.3
+  vector_math: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
